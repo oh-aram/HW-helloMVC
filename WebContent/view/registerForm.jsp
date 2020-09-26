@@ -37,7 +37,7 @@ div.ex {
 					<td>성별</td>
 					<td><label><input type="radio" name="gender" value="woman" />여성</label>
 					<label><input type="radio" name="gender" value="man" />남성</label>
-					</td>
+					</td> 
 				</tr>
 				<tr>
 					<td>이메일</td>

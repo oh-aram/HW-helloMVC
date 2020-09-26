@@ -19,7 +19,7 @@ public class CustomerService {
 	public static CustomerService getInstance() {
 		return instance;
 	}
-
+ 
 	public void addCustomer(Customer customer) {
 		customers.put(customer.getId(), customer);
 	}

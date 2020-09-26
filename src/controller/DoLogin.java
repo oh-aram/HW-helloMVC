@@ -38,7 +38,7 @@ public class DoLogin extends HttpServlet {
 		CustomerService service = (CustomerService) CustomerService.getInstance();
 		Customer customer = service.login(id, password);
 		
-		String page;
+		String page;  
 		
 		if(customer == null) {
 			page ="/view/loginFail.jsp";
